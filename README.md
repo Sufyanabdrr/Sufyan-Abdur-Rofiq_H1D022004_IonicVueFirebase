@@ -48,6 +48,38 @@ Dari kode di atas, dapat dilihat bahwa firebaseConfig yang telah disalin bertuju
 
 ![image](https://github.com/user-attachments/assets/0ab72f21-0328-414f-a26d-5bbcac18885d)
 
+Berdasarkan kode di atas, kita dapat melihat bahwa untuk memungkinkan pengguna login menggunakan akun Google, kita harus memasukkan Client ID terlebih dahulu. Client ID ini dapat diperoleh dengan mengunjungi halaman API di Google Console (tautan: https://console.cloud.google.com/apis/dashboard). Setelah menemukan Client ID, salin dan masukkan ke dalam kode tersebut. Jika login berhasil, pengguna akan diarahkan ke halaman Home; jika login gagal, pesan "Login gagal!" - "Terjadi kesalahan saat login dengan Google. Coba lagi." akan ditampilkan.
+
+3. Selanjutnya, kita membuat halaman Login, Home, Profile dan Navbarnya dengan kode sebagai berikut :
+
+a). Halaman Login :
+
+![image](https://github.com/user-attachments/assets/bec5f7df-44e9-4247-afcb-ab3dcfdfa878)
+
+Halaman ini memiliki tombol untuk login menggunakan akun Google. Ketika tombol "Sign In with Google" diklik, fungsi login akan dipanggil untuk memulai proses autentikasi melalui getAuth yang sudah ditambahkan sebelumnya.
+
+b). Halaman Home :
+
+![image](https://github.com/user-attachments/assets/18ff3c12-f169-40e3-a403-49c48f7915dd)
+
+Kode di atas merupakan tampilan untuk halaman Home, di mana di dalamnya terdapat komponen TabsMenu yang berfungsi untuk memanggil dan menampilkan Navbar.
+
+c). Halaman Profile :
+
+![image](https://github.com/user-attachments/assets/9153769e-d1d5-48f9-a82c-8125ca57b22b)
+
+![image](https://github.com/user-attachments/assets/0b5ed0d2-4665-4355-97f2-313c6b44253c)
+
+Dari kode di atas, dapat dilihat bahwa ProfilePage menampilkan informasi pengguna seperti foto profil, nama, dan email. Di bagian header, terdapat tombol logout yang berfungsi untuk mengakhiri sesi pengguna dan keluar dari aplikasi.
+
+d). Navbar :
+
+![image](https://github.com/user-attachments/assets/90e964a6-716c-4e39-bf69-e4ecda40605f)
+
+Pada kode di atas, dibuat navbar untuk halaman Home dan Profile menggunakan ion icons, yang menampilkan ikon untuk Home dan Profile. Ikon-ikon tersebut dapat diklik dan akan mengarahkan pengguna ke halaman yang sesuai.
+
+
+
 
 
 
