@@ -78,6 +78,72 @@ d). Navbar :
 
 Pada kode di atas, dibuat navbar untuk halaman Home dan Profile menggunakan ion icons, yang menampilkan ikon untuk Home dan Profile. Ikon-ikon tersebut dapat diklik dan akan mengarahkan pengguna ke halaman yang sesuai.
 
+# Tugas 10 - Pertemuan 11 Praktikum Pemrograman Mobile
+
+# A. Proses CRUD :
+
+1). Create atau membuat Todo :
+
+![image](https://github.com/user-attachments/assets/06006433-1683-4e6f-8695-ff0274a818ab)
+
+![image](https://github.com/user-attachments/assets/0c7e61fc-bdd4-43d9-97cd-89dc174ca549)
+
+Pengguna dapat menambahkan todo baru dengan memasukkan title dan description. Tekan tombol "+" di pojok kanan bawah untuk membuka halaman Add Todo. Setelah mengisi bagian title dan description, klik "Add Todo" untuk menyimpan ke Firestore.
+
+2). Read Todo atau membaca Todo pada halaman home :
+
+![image](https://github.com/user-attachments/assets/34347f4b-8a1a-46f8-8f01-78413d607946)
+
+Tampilan di atas menampilkan daftar ToDo yang terbagi menjadi dua bagian, yaitu Active Todos dan Completed Todos.
+
+3). Update Todo atau mengubah Todo :
+
+![image](https://github.com/user-attachments/assets/45b83ee2-5a22-4224-9d02-2ff3e9bbe683)
+
+Langkah pertama adalah menggeser Todo yang akan diupdate ke sebelah kiri, kemudian akan muncul 2 ikon yaitu ikon pensil dengan background berwarna biru dan ikon centang dengan background berwarna hijau. Kemudian klik ikon pensil dengan background berwarna biru maka akan masuk pada halaman Edit Todo :
+
+![image](https://github.com/user-attachments/assets/31cbb7e7-438b-44c6-94a6-a211b9e2d71f)
+
+kemudian setelah mengupdate data pada halaman Edit Todo :
+
+![image](https://github.com/user-attachments/assets/a8b885a9-d7bc-4b36-9f7d-1c11d8fa0a6a)
+
+Selanjutnya klik tombol Edit Todo berwarna biru untuk menyimpan perubahan, maka data Todo pada halaman home akan berubah/terupdate :
+
+![image](https://github.com/user-attachments/assets/94eee61c-2777-463b-b7de-3e7b24f73721)
+
+4). Delete Todo atau menghapus Todo :
+
+![image](https://github.com/user-attachments/assets/af6436ce-d18a-4263-a239-1cb3de7b1866)
+
+Untuk menghapus Todo caranya adalah dengan menggeser Todo yang akan dihapus ke sebelah kanan, kemuadian akan tampil ikon sampah dengan background berwarna merah dan akan muncul konfirmasi Todo berhasil dihapus dan Todo akan terhapus :
+
+![image](https://github.com/user-attachments/assets/b34541a1-573b-4756-b491-a51337416371)
+
+5). Toggle Todo Status atau mengubah status Todo dari active menjadi compelete :
+
+![image](https://github.com/user-attachments/assets/4312d1e5-40be-4722-90e8-974946557432)
+
+langkah pertama adalah menggeser Todo ke sebelah kiri, kemudian akan muncul 2 ikon yaitu ikon pensil dengan background berwarna biru dan ikon centang dengan background berwarna hijau. Kemudian klik ikon centang dengan background berwarna hijau :
+
+![image](https://github.com/user-attachments/assets/c4d4893b-d841-4270-871c-37b8b5607a41)
+
+Maka akan muncul konfirmasi Todo berubah status dan Todo akan berubah status menjadi complete.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
